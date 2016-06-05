@@ -41,23 +41,23 @@ $(document).ready(function() {
 
   function redLight() {
     clearLights();
-    $('#stopLight').css('background-color','red');
+    $('#stopLight').attr('class','redBulb');
   }
 
   function yellowLight() {
     clearLights();
-    $('#slowLight').css('background-color','yellow');
+    $('#slowLight').attr('class','yellowBulb');
   }
 
   function greenLight() {
     clearLights();
-    $('#goLight').css('background-color','green');
+    $('#goLight').attr('class','greenBulb');
   }
 
   function clearLights() {
-    $('#stopLight').css('background-color','black');
-    $('#slowLight').css('background-color','black');
-    $('#goLight').css('background-color','black');
+    $('#stopLight').attr('class','blackBulb');
+    $('#slowLight').attr('class','blackBulb');
+    $('#goLight').attr('class','blackBulb');
   }
   
 
