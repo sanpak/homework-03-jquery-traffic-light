@@ -31,7 +31,7 @@
 });
 */
 
-//want to try adding style to id.
+//want to try adding style to class.
 
 $(document).ready(function() {
 
