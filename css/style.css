@@ -40,14 +40,18 @@ h1 {
   transition: background 500ms;
 }
 
-#stopButton {
+#black {
+  background-color: #111;
+}
+
+#redLight {
   background-color: red;
 }
 
-#slowButton {
+#yellowLight {
   background: yellow;
 }
 
-#goButton {
-  
+#greenLight {
+  background: green;
 }
